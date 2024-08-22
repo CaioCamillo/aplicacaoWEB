@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt'br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Processo DHL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Aplicaçao Web</h1>
+    <form id="projeto">
+      <label for="projetonome">Nome do Projeto:</label>
+      <input type="text" id="projetonome" required>
+      <label for="status">Status do Projeto</label>
+      <select id="status">
+        <option value="Em progresso">Em progresso</option>
+        <option value="Aguardando">Aguardando</option>
+        <option value="Em desenvolvimento">Em desenvolvimento</option>
+        <option value="Concluido">Concluido</option>
+      </select>
+      <button type="submit">Adicionar Projeto</button>
+    </form>
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Nome do Projeto</th>
+          <th>Status</th>
+          <th>Açoes</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    <p>2024 CaioCamillo</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
